@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-// import './LiveMatch.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Logo1 from "../assets/LOGO1.png";
@@ -20,26 +19,26 @@ const LiveMatches: React.FC = () => {
 
   return (
     <div className="live-match">
-      <div className="header">
-        <p style={{fontSize:'12px'}}>LIVE MATCHES</p>
-        <span style={{fontSize:'12px'}}>See All</span>
+      <div className="live-header">
+        <p style={{ fontSize: '12px' }}>LIVE MATCHES</p>
+        <span style={{ fontSize: '12px' }}>See All</span>
       </div>
       <Slider {...settings}>
-        <div className="card">
-          <div className="card-header">
-            <p style={{fontSize:'12px'}}>Champions League 24</p>
+        <div className="live-card">
+          <div className="live-card-header">
+            <p style={{ fontSize: '12px' }}>Champions League 24</p>
           </div>
-          <div className="card-body">
-            <div className="logo-left-content" style={{ marginTop: "10px" }}>
+          <div className="live-card-body">
+            <div className="live-logo-left-content" style={{ marginTop: "10px" }}>
               <img
                 src={Logo1}
                 alt="Team Logo"
-                className="team-logo left-logo"
+                className="live-team-logo live-left-logo"
               />
-              <p className="team-name">TISB U15</p>
+              <p className="live-team-name">TISB U15</p>
             </div>
             <div
-              className="match-info"
+              className="live-match-info"
               style={{
                 display: "block",
                 justifyContent: "center",
@@ -57,7 +56,7 @@ const LiveMatches: React.FC = () => {
                 </span>
                 <span style={{ fontSize: "40px", margin: "10px" }}>0</span>
               </p>
-              <div style={{display:'flex',justifyContent:'center',marginTop:'-20px'}}>
+              <div style={{ display: 'flex', justifyContent: 'center', marginTop: '-20px' }}>
                 <p
                   style={{
                     backgroundColor: "#d82020",
@@ -70,7 +69,7 @@ const LiveMatches: React.FC = () => {
                     alignItems: "center",
                     justifyContent: "center",
                     gap: "5px",
-                    height:'20px'
+                    height: '20px'
                   }}
                 >
                   <img
@@ -84,21 +83,16 @@ const LiveMatches: React.FC = () => {
                 </p>
               </div>
             </div>
-
-            <div className="logo-left-content" style={{ marginTop: "10px" }}>
+            <div className="live-logo-left-content" style={{ marginTop: "10px" }}>
               <img
                 src={Logo2}
                 alt="Team Logo"
-                className="team-logo left-logo"
+                className="live-team-logo live-left-logo"
               />
-              <p className="team-name">CIS U15</p>
+              <p className="live-team-name">CIS U15</p>
             </div>
           </div>
         </div>
-
-        {/* <div className="card"></div>
-
-        <div className="card"></div> */}
       </Slider>
     </div>
   );

@@ -1,0 +1,64 @@
+/* Analysis.css */
+
+.analysis-container {
+    margin: 20px;
+    border-radius: 10px;
+    height: 70px;
+    background-color: #cfe8f7;
+    color: #1183bf;
+    text-align: center;
+    margin-bottom: -10px;
+    padding: 1px;
+  }
+  
+  .analysis-header {
+    margin-top: 10px;
+    font-size: 20px;
+    float: left;
+    margin-left: 15px;
+  }
+  
+  .analysis-subheader {
+    font-size: 14px;
+    margin: 0;
+    float: left;
+    margin-left: 15px;
+    margin-top: -10px;
+    color: black;
+  }
+  
+  .columns-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .column-1 {
+    background-color: #dcf8e2;
+    color: #0fa616;
+    margin-right: 10px;
+  }
+  
+  .column-2 {
+    background-color: #f6e2bf;
+    color: #e4840b;
+    margin-right: 10px;
+  }
+  
+  .column-3 {
+    background-color: #f0eafc;
+    color: #76717d;
+  }
+  
+  .column p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

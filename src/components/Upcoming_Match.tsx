@@ -37,7 +37,7 @@ const UpcomingMatch: React.FC = () => {
             <div className="match-info" style={{ display: 'block', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
                 <p style={{ color: 'red', fontSize: '12px',marginTop:'-30px'}}>04:00 PM</p>
                 <p style={{ marginTop: '-6px', fontSize: '12px', color: 'grey' }}>4th Apr</p>
-                <p style={{marginTop:"-5px",fontSize: '12px', color: '#b79900', backgroundColor: '#fefbdd', padding: '6px, 8px, 6px, 8px', borderRadius: '20px', display: 'inline-block' }}>7-A-SIDE</p>
+                <p style={{marginTop:"-5px",fontSize: '12px', color: '#b79900', backgroundColor: '#fefbdd', padding: '6px, 8px, 6px, 8px', borderRadius: '20px', display: 'inline-block' ,height:'20px',width:'80px',paddingTop:'4px'}}>7-A-SIDE</p>
                 <p style={{color: 'grey', fontSize: '12px' ,marginTop:"-10px"}}>TISB Basketball Court</p>
             </div>
 

@@ -1,112 +1,110 @@
 .live-match {
-    padding: 10px;
-    background-color: #f5f5f5;
-    border-radius: 20px;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .header p {
-    margin: 0;
-    font-size: 12px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .header span {
-    color: #061ca0;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  .card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    max-width: 90%; 
-    margin: 0 auto; 
+  padding: 20px;
+  /* background-color: #f5f5f5; */
+  border-radius: 20px;
+}
+
+.live-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.live-header p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.live-header span {
+  color: #3376ff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.live-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;    
+  height: 140px;
+  /* padding-bottom: 20px; */
+}
+
+.live-card-header {
+  display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
-    /* padding-bottom: 20px; */
-  }
-  
-  .card-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e9ecf7;
-    color: #061ca0;
+    background-color: rgb(248, 198, 186);
+    color: #b11313;
     text-align: center;
-    margin: 20px;
-    padding: 10px; 
+    /* padding: 8px, 1px, 8px, 1px;  */
     border-radius: 40px;
-    font-size: 20px;
-    /* height: 50px;  */
+    font-size: 18px;
+    height: 20px; 
+    margin: 10px;
     box-sizing: border-box; 
-  }
-  
-  .card-body {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .team-logo {
-    height: 50px; 
-    width: 50px; 
-  }
-  
-  .left-logo {
-    margin-top: -50px;
-    align-self: flex-start; 
-  }
-  
-  .right-logo {
-    margin-top: -50px;
-    
-  }
-  
-  .match-info {
-    flex: 1;
-    padding: 0 20px;
-    text-align: center;
-  }
-  
-  
-  .slick-slider {
-    margin: 0 -10px;
-  }
-  
-  @media (max-width: 768px) {
-    .card {
-      max-width: 95%;
-    }
-    
-    .left-logo,
-    .right-logo {
-      display: none;
-    }
-  
-    .match-info {
-      padding: 10px;
-    }
+}
+
+.live-card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.live-team-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.live-left-logo {
+  margin-top: -50px;
+  align-self: flex-start;
+}
+
+.live-right-logo {
+  margin-top: -50px;
+}
+
+.live-match-info {
+  flex: 1;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.slick-slider {
+  margin: 0 -10px;
+}
+
+@media (max-width: 768px) {
+  .live-card {
+    max-width: 95%;
   }
 
-.logo-left-content{
-    flex-direction: column;
-}  
+  .live-left-logo,
+  .live-right-logo {
+    display: none;
+  }
 
+  .live-match-info {
+    padding: 10px;
+  }
+}
 
-.team-name{
-    font-size: 14px;
-    margin-top: 5px;
-    color: BLACK;
+.live-logo-left-content {
+  flex-direction: column;
+}
+
+.live-team-name {
+  font-size: 14px;
+  margin-top: 5px;
+  color: BLACK;
 }

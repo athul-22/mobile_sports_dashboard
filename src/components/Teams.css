@@ -1,8 +1,8 @@
 .teams-section-new {
-    padding: 10px;
-    background-color: #f5f5f5;
+    padding: 20px;
+    /* background-color: #f5f5f5; */
     border-radius: 20px;
-    margin-bottom: 80px;
+    margin-bottom: -20px;
   }
   
   .header-new {
@@ -20,7 +20,7 @@
   }
   
   .header-new span {
-    color: #061ca0;
+    color: #3376ff;
     cursor: pointer;
     font-size: 12px;
   }
@@ -33,15 +33,16 @@
   
   .card-new {
     background-color: white;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 260px;
+    width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    margin: 0 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+    height: 110px;
     flex-shrink: 0; /* Prevent cards from shrinking */
   }
   
