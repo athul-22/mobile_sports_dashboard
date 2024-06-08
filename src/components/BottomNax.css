@@ -8,7 +8,7 @@
     background-color: white;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
-    height: 80px;
+    height: 60px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
   }
@@ -19,6 +19,7 @@
     align-items: center;
     color: #b2b2b2;
     cursor: pointer;
+
   }
   
   .nav-item p {
@@ -27,7 +28,7 @@
   }
   
   .nav-icon {
-    font-size: 24px;
+    font-size: 20px;
   }
   
   .nav-item.active {

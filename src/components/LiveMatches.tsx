@@ -19,15 +19,15 @@ const LiveMatches: React.FC = () => {
   };
 
   return (
-    <div className="upcoming-match">
+    <div className="live-match">
       <div className="header">
-        <p>LIVE MATCHES</p>
-        <span>See All</span>
+        <p style={{fontSize:'12px'}}>LIVE MATCHES</p>
+        <span style={{fontSize:'12px'}}>See All</span>
       </div>
       <Slider {...settings}>
         <div className="card">
           <div className="card-header">
-            <p>Champions League 24</p>
+            <p style={{fontSize:'12px'}}>Champions League 24</p>
           </div>
           <div className="card-body">
             <div className="logo-left-content" style={{ marginTop: "10px" }}>
@@ -49,33 +49,34 @@ const LiveMatches: React.FC = () => {
               }}
             >
               <p>
-                <span style={{ fontSize: "66px", margin: "10px" }}>1</span>
+                <span style={{ fontSize: "40px", margin: "10px" }}>1</span>
                 <span
                   style={{ fontSize: "17px", margin: "2px", color: "grey" }}
                 >
                   Final
                 </span>
-                <span style={{ fontSize: "66px", margin: "10px" }}>0</span>
+                <span style={{ fontSize: "40px", margin: "10px" }}>0</span>
               </p>
               <div style={{display:'flex',justifyContent:'center',marginTop:'-20px'}}>
                 <p
                   style={{
                     backgroundColor: "#d82020",
                     color: "white",
-                    padding: "4px 5px",
+                    padding: "1px 2px",
                     width: "100px",
                     borderRadius: "20px",
-                    fontSize: "20px",
+                    fontSize: "12px",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     gap: "5px",
+                    height:'20px'
                   }}
                 >
                   <img
                     src={LIVE}
-                    height="20px"
-                    width="20px"
+                    height="15px"
+                    width="15px"
                     alt="Live Icon"
                     style={{ marginRight: "5px" }}
                   />

@@ -17,9 +17,9 @@ const Teams: React.FC = () => {
               <img src={CLUB1} alt="Team Logo" className="team-logo-new" />
             </div>
             <div className="team-info-new" style={{ textAlign: 'left' }}>
-              <p style={{ fontSize: '20px' }}>TISB</p>
-              <p style={{ fontSize: '20px', fontWeight: 'bold' }}>Champions</p>
-              <p style={{ fontSize: '15px', color: 'grey' }}>15 Players</p>
+            <p style={{ fontSize: '16px' }}>TISB</p>
+              <p style={{ fontSize: '18px', fontWeight: 'bold' }}>Champions</p>
+              <p style={{ fontSize: '12px', color: 'grey' }}>15 Players</p>
             </div>
           </div>
         </div>
@@ -30,9 +30,9 @@ const Teams: React.FC = () => {
               <img src={CLUB1} alt="Team Logo" className="team-logo-new" />
             </div>
             <div className="team-info-new" style={{ textAlign: 'left' }}>
-              <p style={{ fontSize: '20px' }}>TISB</p>
-              <p style={{ fontSize: '20px', fontWeight: 'bold' }}>Champions</p>
-              <p style={{ fontSize: '15px', color: 'grey' }}>15 Players</p>
+            <p style={{ fontSize: '16px' }}>TISB</p>
+              <p style={{ fontSize: '18px', fontWeight: 'bold' }}>Champions</p>
+              <p style={{ fontSize: '12px', color: 'grey' }}>15 Players</p>
             </div>
           </div>
         </div>
@@ -43,9 +43,9 @@ const Teams: React.FC = () => {
               <img src={CLUB1} alt="Team Logo" className="team-logo-new" />
             </div>
             <div className="team-info-new" style={{ textAlign: 'left' }}>
-              <p style={{ fontSize: '20px' }}>TISB</p>
-              <p style={{ fontSize: '20px', fontWeight: 'bold' }}>Champions</p>
-              <p style={{ fontSize: '15px', color: 'grey' }}>15 Players</p>
+            <p style={{ fontSize: '16px' }}>TISB</p>
+              <p style={{ fontSize: '18px', fontWeight: 'bold' }}>Champions</p>
+              <p style={{ fontSize: '12px', color: 'grey' }}>15 Players</p>
             </div>
           </div>
         </div>

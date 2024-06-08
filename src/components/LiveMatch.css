@@ -13,7 +13,7 @@
   
   .header p {
     margin: 0;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     color: #333;
   }
@@ -34,7 +34,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    
+    /* padding-bottom: 20px; */
   }
   
   .card-header {
@@ -48,7 +48,7 @@
     padding: 10px; 
     border-radius: 40px;
     font-size: 20px;
-    height: 50px; 
+    /* height: 50px;  */
     box-sizing: border-box; 
   }
   
@@ -60,17 +60,17 @@
   }
   
   .team-logo {
-    height: 80px; 
-    width: 80px; 
+    height: 50px; 
+    width: 50px; 
   }
   
   .left-logo {
-    margin-top: -60px;
+    margin-top: -50px;
     align-self: flex-start; 
   }
   
   .right-logo {
-    margin-top: -100px;
+    margin-top: -50px;
     
   }
   
@@ -106,8 +106,7 @@
 
 
 .team-name{
-    
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 5px;
     color: BLACK;
 }

@@ -1,9 +1,8 @@
 .image-container {
-    width: 93%; 
+    width: 100%; 
     display: flex;
     justify-content: center; 
     align-items: center;
-    /* padding: 10px; */
   }
   
   .responsive-image {
