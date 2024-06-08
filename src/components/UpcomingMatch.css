@@ -1,0 +1,112 @@
+.upcoming-match {
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .header span {
+    color: #061ca0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 90%; 
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecf7;
+    color: #061ca0;
+    text-align: center;
+    margin: 20px;
+    padding: 10px; 
+    border-radius: 40px;
+    font-size: 18px;
+    height: 50px; 
+    box-sizing: border-box; 
+  }
+  
+  .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .team-logo {
+    height: 80px; 
+    width: 80px; 
+  }
+  
+  .left-logo {
+    margin-top: -60px;
+    align-self: flex-start; 
+  }
+  
+  .right-logo {
+    margin-top: -100px;
+   
+  }
+  
+  .match-info {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .slick-slider {
+    margin: 0 -10px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      max-width: 95%;
+    }
+    
+    .left-logo,
+    .right-logo {
+      display: none; 
+    }
+  
+    .match-info {
+      padding: 10px;
+    }
+  }
+
+.logo-left-content{
+    flex-direction: column;
+}  
+
+
+.team-name{
+    
+    font-size: 18px;
+    margin-top: 5px;
+    color: BLACK;
+}
